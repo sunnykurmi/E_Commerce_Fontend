@@ -1,5 +1,5 @@
 import { toast } from "react-toastify";
-import axios from "../../utils/axios";
+import axios from "../../utils/Axios";
 import { setUser } from "../reducers/userSlice";
 
 

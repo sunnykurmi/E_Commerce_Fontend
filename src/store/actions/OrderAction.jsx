@@ -1,5 +1,6 @@
 import { setorder } from '../reducers/OrderSlice';
-import axios from '../../utils/axios';
+import axios from "../../utils/Axios";
+
 
 // Action to get orders
 export const getOrders = () => async (dispatch) => {

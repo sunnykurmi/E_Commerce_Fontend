@@ -1,5 +1,6 @@
 import { toast } from "react-toastify";
-import axios from "../../utils/axios"
+import axios from "../../utils/Axios";
+
 import { setProds } from "../reducers/SellerProdSlice"
 
 export const getSellerProds = () => async (dispatch) => {

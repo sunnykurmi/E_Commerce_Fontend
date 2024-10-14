@@ -1,6 +1,7 @@
 import { toast } from 'react-toastify';
 import { setCart } from '../reducers/CartSlice';
-import axios from '../../utils/axios';
+import axios from "../../utils/Axios";
+
 
 // Action to get the cart
 export const getCart = () => async (dispatch) => {

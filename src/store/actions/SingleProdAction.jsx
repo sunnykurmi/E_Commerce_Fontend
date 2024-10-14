@@ -1,4 +1,5 @@
-import axios from "../../utils/axios"
+import axios from "../../utils/Axios";
+
 import { setProd } from "../reducers/SingleProdSlice"
 
 export const getSingleProd = ({id}) => async (dispatch) => {
